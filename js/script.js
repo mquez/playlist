@@ -1,21 +1,27 @@
 // quick fix for Cloud9 warning:
 /* global $ */
 
-// Class 2:
-// Complete displayList() to show a single song in the list
+// Class 1:
+// Customize the mySong variable with information about your favorite song.
+// Complete displaySong function to append a single song to the list on the page.
+// Make sure the displaySong function is called when the page loads.
 
 // Class 2:
-// Complete displayList() to show all the songs in the list
-// Complete clearList() funcion
+// Complete displayList function to append all the songs to the list on the page.
+// Make sure the displayList function is called when the page loads.
+// Complete clearList function to remove everything inside the list on the page (optional).
 
 // Class 3:
-// Complete the addSong function to take an input from input boxes and push a new song to the playlist array. 
+// Complete the addSong function to:
+//	  take inputs from the input boxes,
+//    push the new song to the playlist array,
+// 	  and display the new song in the list on the page.
+// Make sure the addSong function is triggered when a user clicks the Add Song button.
 
 // *************************** YOUR CODE BELOW *******************************
-//******************TEST EARLY AND OFTEN USING console.log() ******************
-//****************** SERIOUSLY TEST USING console.log()!!! ******************
+//************ CHECK YOUR WORK EARLY AND OFTEN WITH console.log() ************
 
-// Songs
+// Data
 var mySong = {
 	"title":"24K Magic",
 	"artist":"Bruno Mars",
@@ -49,26 +55,39 @@ var myPlayList = [
 
 // DOCUMENT READY FUNCTION
 $( document ).ready(function() {
-  
+	// everything inside this function happens as soon as the page loads!
 
 
 
 });
 
-function displayList(){
+// displaySong uses the properties in the songObject to create an HTML element for a single song
+//	  and appends the element to the playlist on the page
+function displaySong(songObject){
 
 
-  
+
 }
 
+// displayList takes in an array of song objects, and it uses the information from each song object
+//    to create an HTML element and append it to the playlist on the page
+function displayList(songsArray){
+
+
+
+}
+
+// clearList removes all the content from the playlist on the page
 function clearList(){
-  
-  
-  
+
+
+
 }
 
+// addSong takes inputs from the input boxes, organizes them into a new song object, and
+//    pushes a new song to the playlist array
 function addSong(){
- 
-  
-  
+
+
+
 }
