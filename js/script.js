@@ -18,35 +18,36 @@
 // 	  and display the new song in the list on the page.
 // Make sure the addSong function is triggered when a user clicks the Add Song button.
 
-// *************************** YOUR CODE BELOW *******************************
-//************ CHECK YOUR WORK EARLY AND OFTEN WITH console.log() ************
+//**************************** YOUR CODE BELOW *******************************
+//*********** CHECK YOUR WORK EARLY AND OFTEN WITH console.log()!! ***********
 
 // Data
 var mySong = {
-	"title":"24K Magic",
-	"artist":"Bruno Mars",
-	"mp3-url":"https://open.spotify.com/track/6b8Be6ljOzmkOmFslEb23P",
-	"image-url":"https://images-na.ssl-images-amazon.com/images/I/71Gr9aCHQfL._SY355_.jpg",
+	"title": "Don't Worry Be Happy",
+	"artist": "Bobby McFerrin",
+	"imageURL": "https://images-na.ssl-images-amazon.com/images/I/51cB3PoKceL._AC_US500_FMwebp_QL65_.jpg",
+	"playURL": "https://open.spotify.com/track/4v52HuhZqVV0eNpP6vzH5I",
+
 }
 
 var myPlayList = [
 	{
-		"title":"24K Magic",
-		"artist":"Bruno Mars",
-		"mp3-url":"https://open.spotify.com/track/6b8Be6ljOzmkOmFslEb23P",
-		"image-url":"https://images-na.ssl-images-amazon.com/images/I/71Gr9aCHQfL._SY355_.jpg",
+		"title": "Mozart's House",
+		"artist": "Clean Bandit ft. Love Ssega",
+		"imageURL": "https://i.scdn.co/image/f311bae0ebf733fb22e9569037cf44b68e641710",
+		"playURL": "https://open.spotify.com/album/52okycllbZsjP4tKJ0goBA",
 	},
 	{
-		"title":"Sir Duke",
-		"artist":"Stevie Wonder",
-		"mp3-url":"https://open.spotify.com/track/2udw7RDkldLFIPG9WYdVtT",
-		"image-url":"https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Songs_in_the_key_of_life.jpg/220px-Songs_in_the_key_of_life.jpg",
+		"title": "Seven Nation Army",
+		"artist": "White Stripes",
+		"imageURL": "https://images-na.ssl-images-amazon.com/images/I/51yynBRMVbL._AC_US500_QL65_.jpg",
+		"playURL": "https://open.spotify.com/album/4StIitBi8mj72prw8U4lod",
 	},
 	{
-		"title":"Sorry",
-		"artist":"Justin Bieber",
-		"mp3-url":"https://open.spotify.com/track/09CtPGIpYB4BrO8qb1RGsF",
-		"image-url":"http://assets-s3.usmagazine.com/uploads/assets/articles/93827-justin-biebers-sorry-choreographer-spills-video-style-secrets-parris-goebel/1445638548_justin-bieber-sorry-dancers-zoom.jpg",
+		"title": "Move Your Feet",
+		"artist": "Junior Senior",
+		"imageURL": "https://images-na.ssl-images-amazon.com/images/I/51hGF-ePp1L._AC_US500_FMwebp_QL65_.jpg",
+		"playURL": "https://open.spotify.com/track/7cGfrVoC7G03XeXn7yflx5",
 	}
 
 ]
