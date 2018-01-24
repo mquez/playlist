@@ -1,1 +1,6 @@
-
+.visible-border {
+	border: 1px solid lightblue;
+}
+.note-to-coder {
+	color: 	red;
+}
