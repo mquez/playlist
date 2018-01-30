@@ -4,9 +4,8 @@
   <head>
     <meta charset="utf-8" />
     <title>Playlist</title>
-
       <!-- Bootstrap CSS library -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
 
       <!-- Your CSS files -->
       <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -16,30 +15,53 @@
 
        <!-- Your JavaScript files -->
       <script src="js/script.js"></script>
-
-
   </head>
 
   <body>
-    <div class="container">
-      <div class="row text-center">
-        <h1> Playlist </h1>
-      </div>
-      <div class="row">
-        <p class="note-to-coder">Note: "add song" section here!</p>
-        <input class="visible-border">
-        <input class="visible-border">
-        <input class="visible-border">
-        <input class="visible-border">
-        <button> Submit </button>
-      </div>
-      <div class="songs row">
-        <p class="note-to-coder">Note: song playlist section here!</p>
+    <div class="container"><!-- page container -->
+
+      <div class="row"><!-- header section -->
+        <div class="col text-center">
+          <h1> Playlist </h1>
+        </div>
+      </div><!-- header section ends here -->
 
 
-      </div>
+      <div class="row"><!-- add song section -->
+        <div class="col">
+          <h2 class="text-center">Add Song</h2>
+          <div class="form-group">
+            <label for="Title">Title</label>
+            <input type="text" class="form-control" id="title">
+          </div>
+          <div class="form-group">
+            <label for="title">Artist</label>
+            <input type="text" class="form-control" id="artist">
+          </div>
+          <button class="btn btn-success btn-block"> Submit </button>
+        </div>
+      </div><!-- add song section ends here -->
 
-    </div>
+
+      <div class="row"><!-- song list section -->
+        <div class="col">
+          <h2 class="text-center">Songs</h2>
+          <div class="songs"><!-- song list -->
+
+            <div class="card"><!-- sample song -->
+              <div class="card-body">
+                  <img src="https://i.scdn.co/image/648836fa18f0b9ce6e6f01ab563a4651d0ab9a1b" class="song-image img-thumbnail float-right">
+                  <h3>Umbrella</h3>
+                  <p>Rihanna feat. JAY Z</p>
+                  <a href="https://open.spotify.com/track/7jtyzXa2NYS9GZi52LGGyd">Play Now</a>
+              </div>
+            </div><!-- sample song ends here -->
+
+          </div><!-- song list ends here -->
+        </div>
+      </div><!-- song list section ends here -->
+
+    </div><!-- page container ends here -->
   </body>
 
 </html>
